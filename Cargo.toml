@@ -1,0 +1,22 @@
+[package]
+name = "gimel"
+version = "0.1.0"
+edition = "2021"
+description = "gimel (ג): C in Hebrew. A translator and driver that targets clang or any C compiler."
+license = "MIT"
+rust-version = "1.70"
+
+[lib]
+name = "gimel"
+path = "src/lib.rs"
+
+[[bin]]
+name = "gimel"
+path = "src/main.rs"
+
+[dependencies]
+# Intentionally empty: gimel builds offline with the standard library only.
+
+[profile.release]
+lto = true
+strip = true

@@ -1,0 +1,8 @@
+// A function and a variable with ASCII symbol names for linking with C.
+[[הוצא("gimel_add")]]
+שלם חבר(שלם א, שלם ב) {
+    החזר א + ב;
+}
+
+[[הוצא("gimel_counter")]]
+שלם מונה = 7;
