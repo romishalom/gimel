@@ -109,4 +109,3 @@ src/main.rs       the CLI
 examples/         hello, fizzbuzz, multi-file (points + geometry), library, export
 tests/cli.rs      end-to-end tests
 ```
-"# gimel" 
